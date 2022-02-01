@@ -1,0 +1,2 @@
+# Day-Trading
+capstone project 
