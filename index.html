@@ -7,8 +7,10 @@
     <title>Tech Trading</title>
     <link href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700" rel="stylesheet">
     <link rel="stylesheet" href="dist/css/style.css">
+	<link rel="stylesheet" href="dist/css/style2.css">
     <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
 </head>
+
 <body class="is-boxed has-animations">
     <div class="body-wrap boxed-container">
         <header class="site-header text-light">
@@ -37,9 +39,63 @@
 							<center> <img class="header-logo-image" src="dist/images/logo.png" alt="Logo"> </center>
 	                        <div class="hero-cta">
 								<br>
-								<a class="button button-primary button-wide-mobile" href="#">Sign Up</a>
-								<a class="button button-primary button-wide-mobile" href="#">Login</a>
+								<button class="button button-primary button-wide-mobile" onclick="openRegisterForm()">Sign Up</button>
+									<div class="form-popup" id="myForm">
+									<form action="/action_page.php" class="form-container">
+										<h1> Sign Up</h1>
+
+										<label for="firstName"><b>Enter First Name</b></label>
+										<input type="text" placeholder="First Name" name="firstName" required>
+
+										<label for="lastName"><b>Enter Last Name</b></label>
+										<input type="text" placeholder="Last Name" name="lastName" required>
+
+										<label for="email"><b>Email</b></label>
+										<input type="text" placeholder="Enter Email" name="email" required>
+
+										<label for="psw"><b>Password</b></label>
+										<input type="password" placeholder="Enter Password" name="psw" required>
+
+										<label for="psw"><b> Re-enter Password</b></label>
+										<input type="password" placeholder="Enter Password" name="psw" required>
+
+										<button type="submit" class="btn">Login</button>
+										<button type="button" class="btn cancel" onclick="closeRegisterForm()">Close</button>
+									</form>
+									</div>
+									<button class="button button-primary button-wide-mobile" onclick="openLoginForm()">Login</button>
+									<div class="form-popup" id="myForm2">
+										<form action="/action_page.php" class="form-container">
+											<h1>Login</h1>
+		
+											<label for="email"><b>Email</b></label>
+											<input type="text" placeholder="Enter Email" name="email" required>
+	
+											<label for="psw"><b>Password</b></label>
+											<input type="password" placeholder="Enter Password" name="psw" required>
+		
+											<button type="submit" class="btn">Login</button>
+											<button type="button" class="btn cancel" onclick="closeLoginForm()">Close</button>
+										</form>										
+									</div>
 							</div>
+								<script>
+								function openRegisterForm() {
+								document.getElementById("myForm").style.display = "block";
+								}
+
+								function closeRegisterForm() {
+								document.getElementById("myForm").style.display = "none";
+								}
+
+								function openLoginForm() {
+								document.getElementById("myForm2").style.display = "block";
+								}
+
+								function closeLoginForm() {
+								document.getElementById("myForm2").style.display = "none";
+								}
+								</script>
 						</div>
 						<div class="mockup-container">
 							<div class="mockup-bg">
