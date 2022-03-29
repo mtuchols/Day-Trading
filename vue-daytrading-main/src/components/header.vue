@@ -1,10 +1,9 @@
 <template>
   <div class="navbar">
     <img src="../assets/logo.png" />
-    <a href="#">Home</a>
-    <a href="#">Account</a>
-    <a href="#">Trade</a>
-    <a href="#">Curated</a>
+    <router-link to="/home">Home</router-link> |
+    <router-link to="/trade">Trade</router-link>
+    <router-link to="/curated">Curated</router-link>
     <a href="#">Logout</a>
   </div>
 </template>

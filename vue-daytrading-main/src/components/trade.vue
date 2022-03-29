@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>CURATED COMPONENT</h1>
+    <h1>TRADE COMPONENT</h1>
   </div>
 </template>
 
