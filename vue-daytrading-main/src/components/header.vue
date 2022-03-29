@@ -1,6 +1,7 @@
 <template>
   <div class="navbar">
-    <a>Tech Trading</a>
+    <img src="../assets/logo.png" />
+    <a href="#">Home</a>
     <a href="#">Account</a>
     <a href="#">Trade</a>
     <a href="#">Curated</a>
@@ -10,7 +11,7 @@
 
 <script>
 export default {
-  name: "topHeader",
+  name: "headerComponent",
 };
 </script>
 
