@@ -23,9 +23,12 @@ export default {
 } */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: normal;
   align-items: center;
   margin-bottom: 10px;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
   background-color: #333;
 }
 .navbar a {
