@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import home from '../components/home.vue'
 import curated from '../components/curated.vue'
 import trade from '../components/trade.vue'
-
+import leaderboard from '../components/leaderboard.vue'
 
 const routes = [
   {
@@ -19,6 +19,11 @@ const routes = [
     path: '/curated',
     name: 'curated',
     component: curated
+  },
+  {
+    path: '/leaderboard',
+    name: 'leaderboard',
+    component: leaderboard
   },
 ]
 

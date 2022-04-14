@@ -3,8 +3,9 @@
     <img src="../assets/logo.png" />
     <h1>Tech Trading</h1>
     <router-link to="/home">Home</router-link> |
-    <router-link to="/trade">Trade</router-link>
-    <router-link to="/curated">Curated</router-link>
+    <router-link to="/trade">Trade</router-link> |
+    <router-link to="/curated">Curated</router-link> |
+    <router-link to="/leaderboard">Leaderboard</router-link> |
     <a href="#">Logout</a>
   </div>
 </template>
