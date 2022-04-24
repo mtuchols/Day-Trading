@@ -8,7 +8,7 @@
 
 <body>
     <div class="navbar">
-        <img src="/src/assets/logo.png" />
+        <img src="/src/images/logosmall.png" />
         <h1>Tech Trading</h1>
         <a href="home.php">Home</a> |
         <a href="trade.php">Trade</a> |
