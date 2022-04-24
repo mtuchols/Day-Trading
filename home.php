@@ -2,7 +2,6 @@
 session_start();
 include("connection.php");
 include("functions.php");
-$user_data = check_login($con);
 ?>
 
 
@@ -20,9 +19,9 @@ $user_data = check_login($con);
 <body>
     <div class="all">
         <div class="home">
-            <h2>Welcome <?php $user_data['firstName'] ?>!</h2>
-            <p>Email: {{ email }}</p>
-            <p>Current Balance: {{ email }}</p>
+            <h2>Welcome <?php echo $_SESSION['firstName'] ?>!</h2>
+            <p>Email: <?php echo $_SESSION['email'] ?></p>
+            <p>Current Balance: { balance } </p>
         </div>
         <div class="home">
             <h2>Account Statistics</h2>
