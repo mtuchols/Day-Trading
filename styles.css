@@ -1,5 +1,4 @@
 .navbar {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
     display: flex;
     justify-content: normal;
     align-items: center;
@@ -55,6 +54,7 @@ p {
 
 body {
     background-color: #99c3ef;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 .all {
