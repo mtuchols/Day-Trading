@@ -21,7 +21,7 @@ include("functions.php");
     <h1>This is the index page</h1>
 
     <br>
-    <!-- Hello, <?php echo $user_data['firstName']; ?> -->
+    Hello, <?php echo $_SESSION['email']; ?>
 </body>
 
 </html>
