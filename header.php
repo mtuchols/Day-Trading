@@ -15,6 +15,9 @@
         <a href="#">Curated</a> |
         <a href="#">Leaderboard</a> |
         <a href="#">Logout</a>
+        <!-- <a href="#">Curated</a> |
+        <a href="#">Leaderboard</a> | -->
+        <a href="logout.php">Logout</a>
     </div>
 </body>
 
