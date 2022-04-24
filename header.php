@@ -10,8 +10,8 @@
     <div class="navbar">
         <img src="/src/assets/logo.png" />
         <h1>Tech Trading</h1>
-        <a href="#">Home</a> |
-        <a href="#">Trade</a> |
+        <a href="home.php">Home</a> |
+        <a href="trade.php">Trade</a> |
         <!-- <a href="#">Curated</a> |
         <a href="#">Leaderboard</a> | -->
         <a href="logout.php">Logout</a>
