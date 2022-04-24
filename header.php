@@ -12,9 +12,6 @@
         <h1>Tech Trading</h1>
         <a href="#">Home</a> |
         <a href="#">Trade</a> |
-        <a href="#">Curated</a> |
-        <a href="#">Leaderboard</a> |
-        <a href="#">Logout</a>
         <!-- <a href="#">Curated</a> |
         <a href="#">Leaderboard</a> | -->
         <a href="logout.php">Logout</a>
