@@ -33,6 +33,7 @@ h1 {
 
 h2 {
     color: #fcde67;
+    margin-top: 24;
 }
 
 p {
@@ -70,12 +71,28 @@ body {
     padding-left: 24px;
 }
 
+.stock {
+    text-align: center;
+    border-radius: 15px;
+    flex: 1;
+    background-color: #030e12;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
+    padding-top: 1px;
+}
+
+label {
+    color: #fcde67;
+    font-size: 24px;
+}
+
 .v-model {
     color: #fcde67;
 }
 
 .trade {
-    background-color: #000000;
+    background-color: #030e12;
     width: 45%;
     padding-left: 24px;
     padding-bottom: 24px;

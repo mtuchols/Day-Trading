@@ -12,6 +12,7 @@
         <h1>Tech Trading</h1>
         <a href="home.php">Home</a> |
         <a href="trade.php">Trade</a> |
+        <a href="stockinfo.php">Stock Lookup</a> |
         <!-- <a href="#">Curated</a> |
         <a href="#">Leaderboard</a> | -->
         <a href="logout.php">Logout</a>
