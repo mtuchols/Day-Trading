@@ -28,6 +28,7 @@ img {
 }
 
 h1 {
+    margin-top: 24;
     color: #fcde67;
 }
 
@@ -67,4 +68,22 @@ body {
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 24px;
+}
+
+.v-model {
+    color: #fcde67;
+}
+
+.trade {
+    background-color: #000000;
+    width: 45%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    float: left;
+    align-content: left;
+    text-align: left;
 }
