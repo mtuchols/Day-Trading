@@ -17,10 +17,10 @@ include("functions.php");
 </head>
 
 <body>
-    <div class="home">
-        <h1>Trade</h1>
-        <h2>Step 1 - Enter a Stock Symbol:</h2>
-        <input v-model="message" placeholder="AAPL" />
+    <div class="trade">
+        <h2>Trade</h2>
+        <label for="ticker">Step 1: Select a Stock</label>
+        <input type="ticker" id="tickerText" name="ticker1" placeholder="AAPL">
         <button v-on:click="hello">Get Info</button>
         <span id="stockinfo"></span>
     </div>

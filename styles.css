@@ -27,13 +27,11 @@ img {
 }
 
 h1 {
-    margin-top: 24;
     color: #fcde67;
 }
 
 h2 {
     color: #fcde67;
-    margin-top: 24;
 }
 
 p {
@@ -69,6 +67,8 @@ body {
     margin-left: 24px;
     margin-right: 24px;
     padding-left: 24px;
+    padding-top: 1px;
+    padding-bottom: 8px;
 }
 
 .stock {
@@ -93,14 +93,12 @@ label {
 
 .trade {
     background-color: #030e12;
-    width: 45%;
+    padding-top: 1px;
     padding-left: 24px;
     padding-bottom: 24px;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 50px;
     border-radius: 15px;
-    float: left;
-    align-content: left;
-    text-align: left;
+    text-align: center;
 }
