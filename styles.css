@@ -56,8 +56,17 @@ body {
     font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
+canvas {
+    text-align: center;
+}
+
 .all {
     display: flex;
+}
+
+.chart {
+    width: 45%;
+    margin: auto
 }
 
 .home {
