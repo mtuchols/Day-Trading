@@ -101,8 +101,8 @@
         <h2>Stock Information Lookup Tool</h2>
         <br>
         <label for="ticker">Enter a NASDAQ ticker:</label>
-        <input type="ticker" id="tickerText" name="ticker1" placeholder="AAPL">
-        <button onclick="getStockData(tickerText)">Get ticker info</button><br><br>
+        <input type="ticker" id="tickerText" name="ticker1" placeholder="AAPL" oninput="this.value = this.value.toUpperCase()">
+        <button onclick=" getStockData(tickerText)">Get ticker info</button><br><br>
         <!-- <button onclick="myFunction()">Click me</button><br> -->
         <!-- <p id="demo"></p> -->
         <p id="ticker"></p>
