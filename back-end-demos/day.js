@@ -1,4 +1,4 @@
-
+ 
 const axios = require('axios')
 
 const startDate = '2021-03-16'
@@ -15,7 +15,6 @@ function printAggregateBars(ticker, start, end) {
     const limit = 50000
     const timespan = 'day'
     const multiplier = '1'
-
     getAggregateBars(ticker, start, end, limit, timespan, multiplier)
         .then(response => {
             for (let i = 0; i < response.data.results.length; i++) {
