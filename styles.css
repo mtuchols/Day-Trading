@@ -65,7 +65,7 @@ canvas {
 }
 
 .chart {
-    width: 45%;
+    width: 90%;
     margin: auto
 }
 
@@ -75,6 +75,18 @@ canvas {
     background-color: #030e12;
     margin-left: 24px;
     margin-right: 24px;
+    padding-left: 24px;
+    padding-top: 1px;
+    padding-bottom: 8px;
+}
+
+.homechart {
+    border-radius: 15px;
+    flex: 1;
+    background-color: #030e12;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 24px;
     padding-left: 24px;
     padding-top: 1px;
     padding-bottom: 8px;
