@@ -39,6 +39,22 @@ if ($result) {
     $_SESSION['avggainz'] = $avggainz['avggainz'];
 }
 
+$query = "SELECT SUM(eodtotal - sodtotal) as total from dailyTransactionData where user_id = '$user_id'";
+$result = mysqli_query($con, $query);
+if ($result) {
+
+    $total = mysqli_fetch_assoc($result);
+    $_SESSION['total'] = $total['total'];
+}
+
+$query = "SELECT SUM(eodtotal - sodtotal) as total from dailyTransactionData where user_id = '$user_id'";
+$result = mysqli_query($con, $query);
+if ($result) {
+
+    $total = mysqli_fetch_assoc($result);
+    $_SESSION['total'] = $total['total'];
+}
+
 ?>
 
 
@@ -63,10 +79,9 @@ if ($result) {
         </div>
         <div class="home">
             <h2>Account Statistics</h2>
-            <p>All time profit: $<?php echo (10000 - $_SESSION['balance']) ?></p>
-            <p>Favorite Stock: <?php echo $_SESSION['avgstock'] ?></p>
+            <p>All time profit: $<?php echo ($_SESSION['total']) ?></p>
             <p>Number of Days Traded: <?php echo $_SESSION['days'] ?></p>
-            <p>Average Profit Per Day: <?php echo $_SESSION['avggainz'] ?></p>
+            <p>Average Profit Per Day: $<?php echo $_SESSION['avggainz'] ?></p>
         </div>
     </div>
 </body>
