@@ -24,6 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                 if ($user_data['password'] === $password) {
 
                     $_SESSION['email'] = $user_data['email'];
+                    $_SESSION['user_id'] = $user_data['user_id'];
                     $_SESSION['firstName'] = $user_data['firstName'];
                     $_SESSION['lastName'] = $user_data['lastName'];
                     header("Location: home.php");
