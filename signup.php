@@ -115,63 +115,6 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                     </div>
                 </div>
             </section>
-
-            <section class="features-extended section">
-                <div class="features-extended-inner section-inner">
-                    <div class="features-extended-wrap">
-                        <div class="container">
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-01.svg" alt="iPhone Feature 01 illustration">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/iphone-feature-01.png" alt="iPhone Feature 01">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Amazing features, coming soon.</h3>
-                                    <p class="m-0">Trading Information Part 1</p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-02.svg" alt="iPhone Feature 02 illustration">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/iphone-feature-02.png" alt="iPhone Feature 02">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Amazing features, coming soon.</h3>
-                                    <p class="m-0">Trading Information Part 2</p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-03.svg" alt="iPhone Feature 03 illustration">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/iphone-feature-03.png" alt="iPhone Feature 03">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Amazing features, coming soon.</h3>
-                                    <p class="m-0">Trading Information Part 3</p>
-                                </div>
-                            </div>
-                            <div class="feature-extended">
-                                <div class="feature-extended-image">
-                                    <div class="mockup-bg">
-                                        <img src="dist/images/iphone-feature-bg-04.svg" alt="iPhone Feature 04 illustration">
-                                    </div>
-                                    <img class="device-mockup is-revealing" src="dist/images/iphone-feature-04.png" alt="iPhone Feature 04">
-                                </div>
-                                <div class="feature-extended-body is-revealing">
-                                    <h3 class="mt-0 mb-16">Amazing features, coming soon.</h3>
-                                    <p class="m-0">Trading Information Part 4</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
         </main>
 
         <footer class="site-footer">

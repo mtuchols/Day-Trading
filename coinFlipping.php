@@ -1,6 +1,11 @@
 <?php
 include("connection.php");
 
+$ticker = ".";
+$start = ".";
+$startMoney = ".";
+$startReference = ".";
+$algorithm = ".";
 
 $ticker = $_COOKIE["ticker"];
 $start = $_COOKIE["start"];
@@ -23,6 +28,3 @@ if ( false===$result ) {
   else {
     echo 'done.';
   }
-
-?>
-
