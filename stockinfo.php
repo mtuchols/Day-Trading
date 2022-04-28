@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <?php
-    include "header.php";
-    ?>
+    <div class="header stack-top">
+        <?php
+        include "header.php";
+        ?>
+    </div>
     <link rel="stylesheet" href="styles.css">
 
     <meta name="viewport" content="width = device-width, initial-scale=.5">
