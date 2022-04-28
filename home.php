@@ -83,8 +83,6 @@ try {
     <meta name="viewport" content="width = device-width, initial-scale=.5">
     <meta http-equiv="X-UA_Compatible" content="ie=edge">
 
-    <meta name="viewport" content="width = device-width, initial-scale=.5">
-    <meta http-equiv="X-UA_Compatible" content="ie=edge">
 
     <!-- Import AXIOS for API calls -->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
