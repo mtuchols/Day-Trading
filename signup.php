@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $query = "insert into users (firstName, lastName, email, password, user_id) values ('$firstName', '$lastName', '$email', '$password', '$user_id')";
         mysqli_query($con, $query);
 
-        header("Location: login.php");
+        header("Location: index.php");
         die;
     } else {
         echo "Please enter some valid information!";
@@ -83,7 +83,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
                                         <input id="button" type="submit" value="Signup" class="btn"><br>
                                         <button type="button" class="btn cancel" onclick="closeLoginForm()">Close</button>
 
-                                        <a href="login.php">Click to Login</a><br><br>
+                                        <a href="index.php">Click to Login</a><br><br>
                                     </form>
                                 </div>
 
